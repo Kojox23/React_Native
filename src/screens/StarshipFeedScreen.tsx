@@ -17,6 +17,7 @@ const Item = ({ name, model, crew, hyperdrive_rating, cost_in_credits }: ItemPro
             <Text >Crew : {crew}</Text>
             <Text>Hyperdrive Rating : {hyperdrive_rating}</Text>
             <Text>cost_in_credits : {cost_in_credits}</Text>
+            <Button style={styles.buttonBuy}>Buy this ship 🚀</Button>
         </Card.Content>
     </Card>
 );
@@ -73,4 +74,8 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     marginHorizontal: 16,
     },
+  buttonBuy: {
+    marginTop: 20,
+    backgroundColor: 'purple',
+  }
 });
