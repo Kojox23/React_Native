@@ -1,6 +1,6 @@
 import React from "react";
 import { FlatList, SafeAreaView, StyleSheet, Text, StatusBar, View, ScrollView } from "react-native";
-import { Card } from 'react-native-paper';
+import { Button, Card } from 'react-native-paper';
 import { useQuery } from '@tanstack/react-query'
 
 

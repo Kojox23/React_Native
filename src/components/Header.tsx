@@ -15,7 +15,6 @@ export const Header = ({ title }: { title: string }) => {
 const styles = StyleSheet.create({
   container: {
     padding: 60,
-    backgroundColor: "green",
     marginBottom: 200,
   },
   headerText: {
