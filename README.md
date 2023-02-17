@@ -11,3 +11,4 @@ I developed the following features:
 - A button with an icon to back on the main screen.
 - An error message when you are offline.
 
+Le taux de progression est indisponible sur le workshop, j'étais à 82% environ.
